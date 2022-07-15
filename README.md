@@ -1,2 +1,2 @@
 # mochila-de-viagem
-Projeto que cria uma lista de itens, com um formulário simples, onde o usuário adiciona todos os itens que não quer esquecer antes de fazer uma viagem. É possível adicionar itens, atualizar a quantidade de cada item ou deletar. 
+Projeto que cria uma lista de itens, com um formulário simples, onde o usuário adiciona todos os itens que não quer esquecer antes de fazer uma viagem. Lista dinâmica onde é possível adicionar itens, atualizar a quantidade de cada item, ou deletar. A página pode ser recarregada e os dados inseridos na lista continuam fixos. Projeto totalmente com foco no treinamento do JavaScript, para aprender a salvar dados no navegador.
