@@ -16,6 +16,7 @@ form.addEventListener("submit", (evento) => {
     const nome = evento.target.elements['nome'];
     const quantidade = evento.target.elements['quantidade'];
 
+    // Const para conferir elemento nome no array itens
     const existe = itens.find(elemento => elemento.nome === nome.value);
 
     const itemAtual = {
@@ -23,10 +24,13 @@ form.addEventListener("submit", (evento) => {
         "quantidade": quantidade.value
     }
 
+    // Condicional para conferir se o elemento existe e atualizar elemento.
     if (existe) {
         itemAtual.id = existe.id;
 
         atualizaElemento(itemAtual);
+
+        itens[existe.id] = itemAtual;
     } else {
         itemAtual.id = itens.length;
 
